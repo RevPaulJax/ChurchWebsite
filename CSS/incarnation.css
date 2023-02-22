@@ -1,0 +1,404 @@
+
+/* COLOR SCHEME:
+
+	Incarnation Logo shade of blue Hexadecimal: #558bc8
+	Charcoal gray hex: #36454F
+	Gray: #b8b8b8 
+	Light gray: #dadad9 */
+
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #FFFFFF;}
+ 
+main { display: block;
+       padding: 3em;
+       background-color: #FFFFFF;
+       color: #000000;} 
+
+header { background-color: #558bc8;
+         color: #00005D;  
+         padding: 10px 10px 10px 155px;
+	 	 background-image: url(../Images/incarnation_logo_horizontal.jpeg);
+	     background-size: 100% 100%;
+	 	 background-repeat: no-repeat;
+	 	 height: 170px;}
+		
+h2 { color: #36454F; 
+     font-family: arial, sans-serif;
+     text-align: left;
+     font-size: 40px;}
+     
+h3 { font-family: "Times New Roman", serif;
+	 letter-spacing: .2em;
+	 padding-right: 30px;
+	 color: #36454F;
+	 font-size: 30px;
+	 line-height: 40px;
+	 text-align: center;}
+
+h4 { font-size: 15px;}
+
+h5 { font-size: 20px;
+	 color: #558bc8;}
+	 
+h6 { font-size: 25px;
+	 color: #558bc8;}
+
+p { font-size: 25px;
+    font-family: "Times New Roman", serif;
+    line-height: 40px;}
+
+li { font-size: 25px;
+     font-family: "Times New Roman", serif;
+     line-height: 40px;}
+
+#floatright { margin: 10px;
+              float: right;}
+
+#floatleft { margin: 10px;
+			 float: left;}
+			 
+#floatrightCom { margin-top: 60px;
+                 float: right;}
+
+footer { font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding-bottom: 20px;
+         background-color: #dadad9;
+         padding-top: 20px;}
+         
+nav { text-align: center;
+	  background-color: #dadad9;
+	  position: sticky; 
+      top: 0; left: 0;
+      height: 100%; 
+      padding-top: 5px;
+      padding-bottom: 5px;}
+
+nav a  { text-decoration: none;
+		 color: #000066;}
+
+nav a:hover { color: #FFFFFF;}
+
+nav ul { list-style-type: none;
+	     padding: 0;
+	     flex-direction: column;
+	     margin: 0;
+	     font-family: "Times New Roman", serif;
+		 letter-spacing: 8px;}
+		 	   
+nav li { font-size: 20px; }  	       
+
+#believe { background-color: #FFFFFF;
+		   font-family: arial, sans-serif;
+		   list-style: inside;
+		   text-align: left;
+		   line-height: 200%;}
+	
+.fa:hover { opacity: 0.9;}
+  
+.fa-facebook { background: #36454F;
+			   color: white;}
+  
+.fa-instagram { background: #36454F;
+                color: white;}
+  
+.fa { padding: 5px;
+	  font-size: 20px;
+	  width: 20px;
+	  text-decoration: none;
+	  margin: 5px 2px;}
+	  
+form { padding-left: 1em;
+	   width: 80%;}	  
+	  
+.forminfo { width: 80%;
+		   	display: grid;
+		  	grid-gap: 1em;
+		   	grid-template-columns: 7em 1fr;}
+       		
+input[type="submit"] { grid-column: 2;
+					   width: 8em;
+					   height: 3em;
+					   background-color: #558bc8;
+					   color: white;
+					   font-size: 1em;}
+						  
+input[type="reset"] { grid-column: 2;
+					  width: 8em;
+					  height: 3em;
+					  background-color: #558bc8;
+					  color: white;
+					  font-size: 1em;}
+					  
+* { box-sizing: border-box;}
+
+.bg-img { background-image: url("../Images/community.jpg");
+		  min-height: 1100px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;}
+
+.container { position: absolute;
+			 right: 0;
+			 margin: 20px;
+			 max-width: 500px;
+			 padding: 16px;
+			 background-color: white;}
+					  
+#announcement {	position: absolute;
+				left: 10px;
+				bottom: 10px;
+				right: 10px;
+				padding: 16px;
+			 	background-color: white;
+			 	padding-bottom: 25px;
+			 	text-align: center;
+			 	font-size: 20px;
+			 	line-height: 8px;}
+      
+input { margin-bottom: 0.5em;}
+
+textarea { margin-bottom: 0.5em;}
+
+.dropdown { position: relative;
+  			display: inline-block;}
+
+.dropdown-content { display: none;
+  					background-color: #dadad9;
+  					min-width: 100%;
+  					min-height: 100%;
+  					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  					padding: 5px 5px;
+  					z-index: 1;}
+
+.dropdown-content a { color: #000066;
+  					  text-decoration: none;
+  					  padding: 2px 2px;
+  					  display: block;
+  					  text-align: center;
+  					  font-size: 20px;
+  					  letter-spacing: 2px;}
+
+.dropdown:hover .dropdown-content { display: block;}
+
+section { padding-top: 0.5em;
+		  padding-bottom: 0.5em;}
+		 
+.center { text-align: center;}
+
+#ang { text-align: center;
+	   color: #558bc8;
+	   font-size: 33px;
+	   font-weight: bold;
+	   font-family: "Times New Roman", serif;}
+
+#sac { text-align: center;
+	   color: #558bc8;
+	   font-size: 33px;
+	   font-weight: bold;
+	   font-family: "Times New Roman", serif;}
+	
+.value { font-weight: bold;}
+
+#vision { text-align: right;
+		  background-image: url("../Images/Church Meets Community.jpg");
+		  min-height: 300px;
+		  min-width: 400px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;}
+		  
+img {height: 100%;
+	 width: 100%;}
+
+#image { background-image: url("../Images/handCandle.jpg");
+		 min-height: 350px;
+		 min-width: 400px;
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+	     position: relative;}
+			   
+#mission { font-size: 20px;}
+
+#green { font-size: 25px;}	
+
+/* Table element */
+
+table { border: 3px solid #558bc8;
+	   	width: 100%;
+	   	height: 100%;}
+
+td { border: 1px solid #558bc8;
+	 text-align: center;
+	 font-size: 20px;
+	 font-family: "Times New Roman", serif;}
+		 		 
+
+@media ( min-width:600px){
+
+		header { padding: 10px 10px 10px 155px;
+	 	 		 background-image: url(../Images/incarnation_logo_horizontal.jpeg);
+	     		 background-size: 100% 100%;
+	 	 		 background-repeat: no-repeat;
+	 			 height: 200px;}
+	
+		h1 { font-size: 2em; 
+	 		 letter-spacing: 0.25em; }
+	 
+		h3 { letter-spacing: .2em;
+	 		 padding-right: 30px;
+	 		 font-size: 30px;
+	 	 	 text-align: center;}
+	        
+		nav { height: 100%; 
+	  		  width: 100%;
+      		  padding-top: 10px;
+     		  padding-bottom: 10px;} 	
+      
+		nav ul { list-style-type: none;
+		 		 position: sticky; 
+				 text-align: right;
+		 		 font-family: "Times New Roman", serif;
+				 letter-spacing: .3em;}
+         
+		nav li { display: inline;
+		 		 font-size: 16px;}
+
+		nav a  { text-decoration: none; 
+         		 padding-right: 25px;}
+
+		.bg-img { background-image: url("../Images/community.jpg");
+		  		  min-height: 1000px;
+		 		  background-position: center;
+		  		  background-repeat: no-repeat;
+		  		  background-size: cover;
+		  		  position: relative;}
+
+		.container { position: absolute;
+			 		 right: 0;
+			 		 margin: 20px;
+			 		 max-width: 450px;
+			 		 padding: 16px;
+			 		 background-color: white;}
+						  
+		#announcement {	position: absolute;
+						left: 0;
+						left: 20px;
+						bottom: 20px;
+						padding: 20px;
+			 			background-color: white;
+			 			padding-bottom: 25px;
+			 			text-align: center;
+			 			font-size: 18px;}
+
+		textarea { margin-bottom: 0.5em;}
+
+		.dropdown { position: relative;
+  					display: inline-block;}
+
+		.dropdown-content { display: none;
+  							position: absolute;
+  							background-color: #dadad9;
+  							min-width: 100px;
+  							box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  							padding: 5px 5px;
+  							z-index: 1;
+  							width: 100%;}
+
+		.dropdown-content a { color: #000066;
+ 					  		  padding: 3px 3px;
+  					  		  text-decoration: none;
+  					  		  display: block;
+  					  		  text-align: left;
+  					  		  font-size: 15px;
+  					  		  letter-spacing: 0.7px;}
+
+		section { padding-left: 0.5em;
+		          padding-right: 0.5em;
+		          padding-top: 0;
+		          padding-bottom: 0;
+		  		  float: left; 
+		  		  width: 50%;}		     
+
+		.center { text-align: center;}
+
+		#vision { text-align: right;
+		  		  background-image: url("../Images/Church Meets Community.jpg");
+		  		  min-height: 300px;
+		  		  background-position: center;
+		  		  background-repeat: no-repeat;
+		  		  background-size: cover;
+		  		  position: relative;}
+		
+		#mission { font-size: 15px;}
+
+		.flow { display: flex; 
+				flex-flow: row;}	   
+		   
+		#mobile { display: none; }
+
+		#desktop { display: inline; }
+	
+		form { width: 60%;}
+		
+		table { width: 100%;
+	   			height: 100%;}
+
+		td { font-size: 20px;}
+		
+		#image { background-image: url("../Images/handCandle.jpg");
+		 		 height: 100%;
+		 		 width: 100%;
+		 		 background-position: center;
+		 		 background-repeat: no-repeat;
+			  	 background-size: cover;
+	     		 position: relative;}
+
+}
+
+@media (min-width:1024px){
+
+			 		 
+			header { background-size: 100% 100%;
+			 		 height: 300px;}
+			
+			#vision { min-height: 400px;}
+
+			#purpose { min-height: 400px;}
+			
+			.bg-img { min-height: 760px;}
+
+			.container { position: absolute;
+			 		 	 right: 0;
+			 		 	 margin: 20px;
+			 		 	 max-width: 500px;
+			 		 	 padding: 16px;
+			 		  	 background-color: white;}
+						  
+			#announcement {	position: absolute;
+							left: 10px;
+							top: 20px;
+							right: 650px;
+							height: 160px;
+							padding: 5px;
+			 				background-color: white;
+			 				padding-bottom: 5px;
+			 				text-align: center;
+			 				font-size: 18px;}
+			 				
+			table { width: 101%;
+	   				height: 100%;}
+
+			td { font-size: 25px;}
+			
+			#image { background-image: url("../Images/handCandle.jpg");
+		 			 width: 50%;
+					 background-position: center;
+					 background-repeat: no-repeat;
+					 background-size: cover;
+	     			 position: relative;}
+}
